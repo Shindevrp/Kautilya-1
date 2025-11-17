@@ -1,2 +1,1 @@
-# Kautilya
 # Kautilya-1
