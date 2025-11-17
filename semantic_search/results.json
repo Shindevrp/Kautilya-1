@@ -1,0 +1,21 @@
+{
+  "query": "How do I fetch tweets with expansions?",
+  "top_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "score": 1.6781,
+      "content": "disabled: True\n          key: expansions\n          value: \n          description: Comma-separated list of fields to expand. Expansions enable requests to expand an ID into a full object in the includes response object.\n\nAllowed values: attachments.poll_ids,attachments.media_keys,author_id,geo.place_id,in_reply_to_user_id,referenced_tweets.id,entities.mentions.username,referenced_tweets.id.author_id",
+      "content_full": "disabled: True\n          key: expansions\n          value: \n          description: Comma-separated list of fields to expand. Expansions enable requests to expand an ID into a full object in the includes response object.\n\nAllowed values: attachments.poll_ids,attachments.media_keys,author_id,geo.place_id,in_reply_to_user_id,referenced_tweets.id,entities.mentions.username,referenced_tweets.id.author_id",
+      "metadata": {
+        "chunk_id": 281,
+        "source": "Twitter API v2.postman_collection.json",
+        "section": "",
+        "size": 401,
+        "content_preview": "disabled: True\n          key: expansions\n          value: \n          description: Comma-separated list of fields to expand. Expansions enable requests to expand an ID into a full object in the include"
+      }
+    }
+  ],
+  "execution_time_ms": 4725.86,
+  "timestamp": 1763365381.432677
+}

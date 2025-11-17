@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #f7f8fb;
+  color: #0f172a;
+}
+
+input, textarea {
+  @apply border border-slate-200 rounded-lg px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-primary-400;
+}
+
+button {
+  @apply rounded-lg px-4 py-2 font-medium transition;
+}
+
+.btn-primary {
+  @apply bg-primary-600 text-white hover:bg-primary-500;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow border border-slate-200;
+}

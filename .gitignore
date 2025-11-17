@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+.next/
+out/
+.env.local
+.env.*
+Narrative_Building\ /news.json
+semantic_search/frontend/node_modules/
+Narrative_Building\ /frontend/node_modules/
+*.log
+.venv/
